@@ -36,7 +36,7 @@ mkdir rails-webpacker
 cd rails-webpacker
 cat > Gemfile <<END_CONF
 source 'https://rubygems.org'
-ruby '2.4.0'
+ruby '2.4.1'
 gem 'rails', github: 'rails/rails'
 END_CONF
 bundle
@@ -56,6 +56,7 @@ bundle exec rails new . --dev --force --webpack
 Проверте `Gemfile`, и при необходимости, уточните следующие строки:
 
 ```ruby
+ruby '2.4.1'
 source 'https://rubygems.org'
 
 git_source(:github) do |repo_name|
