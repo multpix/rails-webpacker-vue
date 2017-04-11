@@ -1,0 +1,9 @@
+doctype html
+html
+  head
+    = render partial: 'layouts/meta'
+    = csrf_meta_tags
+  body
+    #app
+      = yield
+    = javascript_pack_tag 'app'

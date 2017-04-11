@@ -1,0 +1,4 @@
+button(id="show-modal" @click="showModal = true") Show Modal
+modal(v-if="showModal" @close="showModal = false")
+  h3(slot="header") component Modal
+  p(slot="body") Vue.js for Ruby on Rails 
