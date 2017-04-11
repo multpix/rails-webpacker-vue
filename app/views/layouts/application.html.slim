@@ -3,7 +3,7 @@ html
   head
     = render partial: 'layouts/meta'
     = csrf_meta_tags
+    = javascript_pack_tag 'app'
   body
     #app
       = yield
-    = javascript_pack_tag 'app'
