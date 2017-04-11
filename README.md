@@ -72,6 +72,7 @@ gem 'webpacker',   github: 'rails/webpacker'
 gem 'jbuilder',    github: 'rails/jbuilder' 
 gem 'slim-rails',  github: 'slim-template/slim-rails'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'uglifier'
 
 group :development do
   gem 'listen', '>= 3.0.5', '< 3.2'
