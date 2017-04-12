@@ -28,6 +28,7 @@
     "stylus-loader": "^3.0.1",
     "vue": "^2.2.6",
     "vue-loader": "^11.3.4",
+    "vue-material": "^0.7.1",
     "vue-template-compiler": "^2.2.6",
     "webpack": "^2.3.3",
     "webpack-manifest-plugin": "^1.1.0",

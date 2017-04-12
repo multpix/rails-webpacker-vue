@@ -8,7 +8,9 @@ transition(name="modal")
         .modal-body
           slot(name="body") default body
         .modal-footer
-          button.modal-default-button(@click="$emit('close')") Close 
+          .modal-default-button(@click="$emit('close')")  
+            md-button.md-raised.md-dense
+              |Close
 </template>
 
 <script>
