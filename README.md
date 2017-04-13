@@ -450,6 +450,7 @@ html
   head
     = render partial: 'layouts/meta'
     = csrf_meta_tags
+    = stylesheet_pack_tag 'app'
     = javascript_pack_tag 'app'
   body
     #app
